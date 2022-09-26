@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background image */
+body{
+    background-image: url(img/backcover.svg);
+    background-size: 53%;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+
+
+
+.main-div{
+    width: 90vw;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+nav img{
+    margin-left: 2rem;
+    height: 2.4rem;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-item{
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+.signin-btn{
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    padding:0.9rem;
+    border-radius: 10px;
+    border: solid;
+   
+    
+}
+
+
+/*hero section*/
+
+.intro-section{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color:#965cf2 ;
+    margin-top: -10rem;
+    margin-left: 5rem;
+
+}
+
+.left-section h4{
+    font-size: 1rem;
+    color:#965cf2 ;
+    margin-left: 5rem;
+    margin-top: 1rem;
+
+}
+
+.learn-more-btn{
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+/*image-section*/
+
+.vector-img{
+    position: absolute;
+    bottom: 3rem;
+    right: 50vw;
+    
+}
+
+.vector-dot{
+    position: absolute;
+    right: 51vw;
+    bottom: 9rem;
+}
+
+[alt="intro-img"]{
+    height: 40rem;
+}
